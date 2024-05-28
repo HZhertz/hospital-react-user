@@ -8,7 +8,7 @@
 
 ## 管理端
 
-[基于 React 的医院挂号系统的管理端](https://github.com/facebook/create-react-app)
+[基于 React 的医院挂号系统的管理端](https://github.com/HZhertz/hospital-react-admin)
 
 ## 后端接口
 
