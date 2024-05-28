@@ -1,0 +1,76 @@
+.medicalTreatment {
+    :global(.adm-input) {
+        // position: fixed;
+        // bottom: 50px;
+        --background-color: #e8e8e8;
+        height: 45px;
+    }
+
+    :global(.adm-input-element) {
+        // position: fixed;
+        // bottom: 50px;
+        background-color: #fff;
+        border-radius: 15px;
+        margin: 10px 5% 10px 5%;
+        // width: 80%;
+    }
+
+    .content {
+        overflow-y: auto;
+        height: calc(100vh - 140px);
+        background-color: #fff;
+
+        .ul {
+            list-style-type: none;
+            padding: 10px;
+
+            .li {
+                margin-bottom: 10px;
+                overflow: hidden;
+
+                .imgLeft {
+                    width: 30px;
+                    flex-shrink: 0;
+                    float: left;
+                }
+
+                .sayLeft {
+                    margin-left: 5px;
+                    background-color: #12B7F5;
+                    color: #fff;
+                    line-height: 20px;
+                    padding: 5px;
+                    max-width: 250px;
+                    border-radius: 5px;
+                    float: left;
+                }
+
+                .say::after {
+                    clear: both;
+                }
+
+                .imgRight {
+                    width: 30px;
+                    flex-shrink: 0;
+                    float: right;
+                }
+
+                .sayRight {
+                    margin-right: 5px;
+                    background-color: #12B7F5;
+                    color: #fff;
+                    line-height: 20px;
+                    padding: 5px;
+                    max-width: 250px;
+                    border-radius: 5px;
+                    float: right;
+                }
+
+                .say1::after {
+                    clear: both;
+                }
+            }
+
+        }
+    }
+}

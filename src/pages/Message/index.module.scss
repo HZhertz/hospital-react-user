@@ -1,0 +1,19 @@
+.content {
+    .time {
+        font-size: 10px;
+        color: #ccc;
+        margin: 5px 0;
+    }
+
+    :global(.adm-tabs-content) {
+        padding: 0;
+    }
+
+    :global(.adm-tabs) {
+        background-color: #fff;
+    }
+
+    .systen_content {
+        font-size: 10px;
+    }
+}

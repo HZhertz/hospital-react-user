@@ -1,0 +1,12 @@
+.content {
+    background-color: #fff;
+
+    .SearchBar {
+        margin: 10px 0;
+    }
+
+    :global(.adm-list-item-content-main) {
+        height: 100px;
+        padding: 0;
+    }
+}

@@ -1,0 +1,23 @@
+.tab {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #fff;
+}
+
+.Outlet {
+    padding-bottom: 50px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.time {
+    font-size: 10px;
+    color: #ccc;
+}
+
+:global(.adm-center-popup-wrap) {
+    width: 11rem;
+}

@@ -1,0 +1,17 @@
+.reservationRecord {
+    padding: 10px 0 10px 0;
+
+    .top {
+        font-size: 25px;
+        color: #ccc;
+        text-align: center;
+    }
+
+    .list {
+        margin-top: 10px;
+
+        .username {
+            font-size: 13px;
+        }
+    }
+}
